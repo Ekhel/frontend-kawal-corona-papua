@@ -12,9 +12,6 @@ const Header = () => {
                   JAYAPURA DEV
                 </div>
                 <li className="item">
-                  <Link to="/">Indonesia</Link>
-                </li>
-                <li className="item">
                   <Link to="/data/provinsi">Provinsi</Link>
                 </li>
                 <li className="item">
