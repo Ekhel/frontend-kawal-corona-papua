@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import DataIndonesia from './data/DataIndonesia';
 import DataProvinsi from './data/DataProvinsi';
 import DataPapua from './data/DataPapua';
-import DataGlobal from './data/DataGlobal';
+ //import DataGlobal from './data/DataGlobal';
 
 import Header from './Header';
 import Footer from './Footer';
@@ -21,7 +21,7 @@ class App extends React.Component {
                 <br/>
                 
                 <Switch>
-                   <Route path="/" exact component={DataIndonesia} />
+                   <Route path="/data/indonesia" exact component={DataIndonesia} />
                    <Route path="/data/provinsi" component={DataProvinsi} />
                    <Route path="/data/papua" component={DataPapua} />
                 </Switch>
