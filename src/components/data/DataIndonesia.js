@@ -29,7 +29,7 @@ class DataIndonesia extends React.Component {
                     <div className="desription"><h3>{this.state.indo.map(indo =>(indo.positif))}</h3></div>
                     <div className="desription">ORANG</div>
                   </div>
-                  <div className="left-img"><img width="30%" src="assets/icon/terluka.png" alt="logo" /></div>
+                  <div className="left-img"><img width="30%" src="%PUBLIC_URL%/assets/icon/terluka.png" alt="logo" /></div>
                 </div>
              </div>
             </div>
@@ -41,7 +41,7 @@ class DataIndonesia extends React.Component {
                     <div className="desription"><h3>{this.state.indo.map(indo =>(indo.sembuh))}</h3></div>
                     <div className="desription">ORANG</div>
                   </div>
-                  <div className="left-img"><img width="30%" src="assets/icon/senang.png" alt="logo" /></div>
+                  <div className="left-img"><img width="30%" src="%PUBLIC_URL%/assets/icon/senang.png" alt="logo" /></div>
                 </div>
              </div>
             </div>
@@ -53,7 +53,7 @@ class DataIndonesia extends React.Component {
                     <div className="desription"><h3>{this.state.indo.map(indo =>(indo.meninggal))}</h3></div>
                     <div className="desription">ORANG</div>
                   </div>
-                  <div className="left-img"><img width="30%" src="assets/icon/menangis.png" alt="logo" /></div>
+                  <div className="left-img"><img width="30%" src="%PUBLIC_URL%/assets/icon/menangis.png" alt="logo" /></div>
                 </div>
              </div>
             </div>
@@ -66,7 +66,7 @@ class DataIndonesia extends React.Component {
                     <div className=""><text>SEMBUH : <strong>15</strong></text></div>
                     <div className=""><text>MENINGGAL : <strong>5</strong></text></div>
                   </div>
-                  <div className="left-img"><img width="30%" src="assets/icon/papua1.png" alt="logo" /></div>
+                  <div className="left-img"><img width="30%" src="%PUBLIC_URL%/assets/icon/papua1.png" alt="logo" /></div>
                 </div>
              </div>
             </div>
