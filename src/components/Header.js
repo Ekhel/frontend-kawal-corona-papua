@@ -7,15 +7,15 @@ const Header = () => {
         <div className="inverted">
             <div className="ui container">
               <div className="ui violet fixed inverted menu">
-                <div className="header item">
-                  <img className="logo" src="/assets/coronaicon1.png" alt="logo" />
+                <a className="header item" href="/frontend-kawal-corona-papua/">
+                  <img className="logo" src="assets/icon/coronaicon1.png" alt="logo" />
                   JAYAPURA DEV
-                </div>
+                </a>
                 <li className="item">
-                  <Link to="/data/provinsi">Provinsi</Link>
+                  <Link to="/frontend-kawal-corona-papua/provinsi">Provinsi</Link>
                 </li>
                 <li className="item">
-                  <Link to="/data/papua">Papua</Link>
+                  <Link to="/frontend-kawal-corona-papua/papua">Papua</Link>
                 </li>
               </div>
             </div>

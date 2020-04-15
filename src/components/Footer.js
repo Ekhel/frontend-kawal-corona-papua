@@ -39,9 +39,9 @@ const Footer = () => {
               
             </div>
             <div className="ui inverted section divider"></div>
-            <img src="assets/logo/coronaicon1.png" className="ui centered mini image" alt="logo" />
+            <img src="assets/icon/coronaicon1.png" className="ui centered mini image" alt="logo" />
             <div className="ui horizontal inverted small divided link list">
-              <a className="item" href="http://github.com/Ekhel/kawal-corona">Repository</a>
+              <a className="item" href="http://github.com/Ekhel/frontend-kawal-corona-papua">Repository</a>
               <a className="item" href="https://badges.gitter.im/jayapura_dev/react.svg">Gitter</a>
             </div>
           </div>

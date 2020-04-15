@@ -19,11 +19,10 @@ class App extends React.Component {
                 <br/>
                 <br/>
                 <br/>
-                
                 <Switch>
-                   <Route path="/data/indonesia" exact component={DataIndonesia} />
-                   <Route path="/data/provinsi" component={DataProvinsi} />
-                   <Route path="/data/papua" component={DataPapua} />
+                   <Route path="/frontend-kawal-corona-papua/" exact component={DataIndonesia} />
+                   <Route path="/frontend-kawal-corona-papua/provinsi" component={DataProvinsi} />
+                   <Route path="/frontend-kawal-corona-papua/papua" component={DataPapua} />
                 </Switch>
               </BrowserRouter>
               

@@ -1,5 +1,5 @@
 <h3 align="center">
-<strong>FRONTEND LIVE DATA KASUS COVID 19 (PAPUA)</strong>
+<strong>LIVE DATA KASUS COVID 19 (PAPUA)</strong>
 </h3>
 <hr/>
 
@@ -18,9 +18,6 @@
 * Framework :
   - React
 
-* Services Third Party :
-  - [Axios](https://github.com/axios/axios)
-
 * Backend
   - [Backend Kawal Corona Papua](https://github.com/Ekhel/backend-kawal-corona-papua)
 
@@ -35,8 +32,9 @@
 | Redux             | *npm install --save redux*                                                        |
 | React-Redux       | *npm install --save react-redux*                                                  |
 | axios             | *npm install --save axios*                                                        |
-| Redux-Form        | *npm install --save redux-form*                                                   |
+| lodash            | *npm install --save lodash*                                                       |
 | Redux-Thunk       | *npm install --save redux-thunk*                                                  |
+| github Pages      | *npm install gh-pages --save-dev*                                                 |
 
 --------------------------------------------------------------------------------------------------------------
 
