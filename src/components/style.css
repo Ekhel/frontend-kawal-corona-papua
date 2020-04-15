@@ -9,9 +9,7 @@ body {
     font-size: small;
   }
   .container2 {
-    margin-top: 2em;
-    margin-right: 3em;
-    margin-left:3em;
+    margin: initial;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .container3 {
@@ -31,4 +29,29 @@ body {
 
   .uppercase {
     text-transform: uppercase;
+  }
+
+  .right-img {
+    float: right;
+    padding-right: 0em;
+  }
+  .right-text {
+    float: right;
+  }
+
+  .ui.fluid.card.yellow {
+    background-color: #FFD700;
+  }
+
+  .ui.fluid.card.green {
+    background-color: #20B2AA;
+  }
+  .ui.fluid.card.pink {
+    background-color: #C71585;
+  }
+  .ui.fluid.card.grey {
+    background-color: #FF4500;
+  }
+  .ui.fluid.card.teals {
+    background-color: #008080;
   }

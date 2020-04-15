@@ -17,7 +17,7 @@ const Footer = () => {
                 <h4 className="ui inverted header">Websait</h4>
                 <div className="ui inverted link list">
                   <a href="https://kawalcorona.com" className="item">Kawal Corona</a>
-                  <a href="https://hack.co.id/" class="item">Ethical Hacker Indonesia</a>
+                  <a href="https://hack.co.id/" className="item">Ethical Hacker Indonesia</a>
                   <a href="https://kawal-corona.herokuapp.com" className="item">Backend Kawal-Corona Papua</a>
                 </div>
               </div>
@@ -39,7 +39,7 @@ const Footer = () => {
               
             </div>
             <div className="ui inverted section divider"></div>
-            <img src="assets/logo/coronaicon1.png" class="ui centered mini image" alt="logo" />
+            <img src="assets/logo/coronaicon1.png" className="ui centered mini image" alt="logo" />
             <div className="ui horizontal inverted small divided link list">
               <a className="item" href="http://github.com/Ekhel/kawal-corona">Repository</a>
               <a className="item" href="https://badges.gitter.im/jayapura_dev/react.svg">Gitter</a>

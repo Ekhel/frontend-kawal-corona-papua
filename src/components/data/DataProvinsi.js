@@ -42,9 +42,7 @@ class DataProvinsi extends React.Component {
     };
 
     render() {
-        console.log(this.props.provinsi);
         return (
-            
             <div>{this.renderList()}</div>
         );
     };
@@ -52,7 +50,6 @@ class DataProvinsi extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    
     return { provinsi: Object.values(state.provinsi) };
 }
 

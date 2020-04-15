@@ -1,2 +1,3 @@
 export const FETCH_INDONESIA = 'FETCH_INDONESIA';
 export const FETCH_PROVINSI = 'FETCH_PROVINSI';
+export const FETCH_PAPUA = 'FETCH_PAPUA';

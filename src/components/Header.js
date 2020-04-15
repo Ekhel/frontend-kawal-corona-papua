@@ -11,15 +11,15 @@ const Header = () => {
                   <img className="logo" src="/assets/coronaicon1.png" alt="logo" />
                   JAYAPURA DEV
                 </div>
-                <a className="item" href="/">
+                <li className="item">
                   <Link to="/">Indonesia</Link>
-                </a>
-                <a className="item" href="/">
+                </li>
+                <li className="item">
                   <Link to="/data/provinsi">Provinsi</Link>
-                </a>
-                <a className="item" href="/">
+                </li>
+                <li className="item">
                   <Link to="/data/papua">Papua</Link>
-                </a>
+                </li>
               </div>
             </div>
           </div>
