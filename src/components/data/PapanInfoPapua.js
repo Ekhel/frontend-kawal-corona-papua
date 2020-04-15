@@ -28,7 +28,7 @@ class PapanInfoPapua extends React.Component {
                         <div className="desription"><h3>{this.state.papaninfo.map(info =>(info.odp))}</h3></div>
                         <div className="desription">ORANG</div>
                       </div>
-                      <div className="left-img"><img width="30%" src="%PUBLIC_URL%/assets/icon/sedih2.png" alt="logo" /></div>
+                      <div className="left-img"><img width="30%" src="assets/icon/sedih2.png" alt="logo" /></div>
                     </div>
                   </div>
                 </div>
@@ -40,7 +40,7 @@ class PapanInfoPapua extends React.Component {
                         <div className="desription"><h3>{this.state.papaninfo.map(info =>(info.pdp))}</h3></div>
                         <div className="desription">ORANG</div>
                       </div>
-                      <div className="left-img"><img width="30%" src="%PUBLIC_URL%/assets/icon/terluka.png" alt="logo" /></div>
+                      <div className="left-img"><img width="30%" src="assets/icon/terluka.png" alt="logo" /></div>
                     </div>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ class PapanInfoPapua extends React.Component {
                         <div className="desription"><h3>{this.state.papaninfo.map(info =>(info.positif))}</h3></div>
                         <div className="desription">ORANG</div>
                       </div>
-                      <div className="left-img"><img width="30%" src="%PUBLIC_URL%/assets/icon/terluka.png" alt="logo" /></div>
+                      <div className="left-img"><img width="30%" src="assets/icon/terluka.png" alt="logo" /></div>
                     </div>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ class PapanInfoPapua extends React.Component {
                         <div className="desription"><h3>{this.state.papaninfo.map(info =>(info.sembuh))}</h3></div>
                         <div className="desription">ORANG</div>
                       </div>
-                      <div className="left-img"><img width="30%" src="%PUBLIC_URL%/assets/icon/senang.png" alt="logo" /></div>
+                      <div className="left-img"><img width="30%" src="assets/icon/senang.png" alt="logo" /></div>
                     </div>
                   </div>
                 </div>
