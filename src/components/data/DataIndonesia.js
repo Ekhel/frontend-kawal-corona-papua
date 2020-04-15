@@ -29,7 +29,7 @@ class DataIndonesia extends React.Component {
                     <div className="desription"><h3>{this.state.indo.map(indo =>(indo.positif))}</h3></div>
                     <div className="desription">ORANG</div>
                   </div>
-                  <div className="left-img"><img width="30%" src="/assets/icon/terluka.png" alt="logo" /></div>
+                  <div className="left-img"><img width="30%" src="build/assets/icon/terluka.png" alt="logo" /></div>
                 </div>
              </div>
             </div>
