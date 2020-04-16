@@ -197,7 +197,19 @@
   - Fetch Data Personal Pasien Positif Provinsi Papua
   - Fetch Data Rumah Sakit Rujukan Di Provinsi Papua
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+
+## Screen :
+  - Home :
+    ![home](https://live.staticflickr.com/65535/49780804043_c28a99d937_b.jpg)
+
+  - Data Total & Grafik Papua :
+    ![Grafik](https://live.staticflickr.com/65535/49781343581_dffa780136_b.jpg)
+
+  - Data Positif Papua :
+    ![Positif](https://live.staticflickr.com/65535/49781343581_dffa780136_b.jpg)
+
+---------------------------------------------------------------------------------------------------
 
 ## Kontribusi Data & Project :
   - Saya Belum Memiliki Sumber Data yang benar" valid.
