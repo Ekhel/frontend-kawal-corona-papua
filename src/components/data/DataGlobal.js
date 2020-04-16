@@ -51,7 +51,7 @@ class DataGlobal extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    return { global: Object.values(state.provinsi) };
+    return { global: Object.values(state.global) };
 }
 
 export default connect(mapStateToProps, { fetchGlobal })(DataGlobal);

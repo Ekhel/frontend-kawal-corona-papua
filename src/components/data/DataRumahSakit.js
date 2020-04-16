@@ -46,7 +46,7 @@ class DataRumahSakit extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    return { rs: Object.values(state.papua) };
+    return { rs: Object.values(state.rumahsakit) };
 }
 
 export default connect(mapStateToProps, { fetchRumahSakit })(DataRumahSakit);
