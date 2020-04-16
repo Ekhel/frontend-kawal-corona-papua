@@ -32,17 +32,17 @@ class GrafikInfoPapua extends React.Component {
           align: 'left'
         },
         xaxis: {
-          categories: ['4 April', '5 April', '6 April', '7 April', '8 April', '9 April', '10 April', '11 April' ,'12 April', '13 April', '14 April', '15 April']
+          categories: ['4 April', '5 April', '6 April', '7 April', '8 April', '9 April', '10 April', '11 April' ,'12 April', '13 April', '14 April', '15 April', '16 April']
         }
       },
       series: [
         {
           name: "POSITIF",
-          data: ['18', '26', '26', '31', '45', '48', '51', '61', '65', '67', '68', '75']
+          data: ['18', '26', '26', '31', '45', '48', '51', '61', '65', '67', '68', '75', '80']
         },
         {
           name: "PDP",
-          data: ['44', '45', '45', '44', '54', '60', '60', '59', '59', '83', '83', '98']
+          data: ['44', '45', '45', '44', '54', '60', '60', '59', '59', '83', '83', '98', '100']
         }
       ]
     };
