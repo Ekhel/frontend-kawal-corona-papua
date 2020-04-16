@@ -15,7 +15,7 @@ class DataPapua extends React.Component {
                 <div className="ui header">
                   Data Kasus Covid 19 Papua
                 </div>
-                <table className="ui green table">
+                <table className="ui celled table">
                   <thead>
                     <tr>
                       <th>No</th>

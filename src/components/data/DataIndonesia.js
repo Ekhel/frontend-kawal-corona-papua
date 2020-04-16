@@ -2,6 +2,7 @@ import '../style.css';
 import React from 'react';
 
 import kawalcorona from '../../apis/kawalcorona';
+import DataGlobal from './DataGlobal';
 
 class DataIndonesia extends React.Component {
     state = ({ indo: [] })
@@ -17,7 +18,7 @@ class DataIndonesia extends React.Component {
         return (
         <div>
           <div className="ui text container2">
-            <h3>Live Data Kasus Covid 19 Indonesia & Papua.</h3> 
+            <h3 className="container">Live Data Kasus Covid 19 Indonesia & Papua.</h3> 
           </div>
           <div className="ui divider"></div>
           <div className="ui grid">
@@ -70,7 +71,12 @@ class DataIndonesia extends React.Component {
                 </div>
              </div>
             </div>
+            
           </div>
+          <div className="ui divider"></div>
+            <div className="ui segment">
+              <DataGlobal />
+            </div>
         </div>
       );
     }

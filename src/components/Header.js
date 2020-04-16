@@ -11,12 +11,20 @@ const Header = () => {
                   <img className="logo" src="assets/icon/coronaicon1.png" alt="logo" />
                   JAYAPURA DEV
                 </a>
-                <li className="item">
-                  <Link to="/frontend-kawal-corona-papua/provinsi">Provinsi</Link>
-                </li>
-                <li className="item">
-                  <Link to="/frontend-kawal-corona-papua/papua">Papua</Link>
-                </li>
+                <div class="ui simple dropdown item">
+                  Data <i class="dropdown icon"></i>
+                  <div class="menu">
+                    <li className="item">
+                      <Link style={{ textDecoration: 'none', color: 'black' }} to="/frontend-kawal-corona-papua/provinsi" >PROVINSI</Link>
+                    </li>
+                    <li className="item">
+                      <Link style={{ textDecoration: 'none', color: 'black' }} to="/frontend-kawal-corona-papua/papua">PAPUA</Link>
+                    </li>
+                    <li className="item">
+                      <Link style={{ textDecoration: 'none', color: 'black' }} to="/frontend-kawal-corona-papua/rumahsakit">RS RUJUKAN</Link>
+                    </li>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

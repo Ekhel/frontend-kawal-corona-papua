@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { fetchGlobal } from '../../actions';
-import PapanInfoGlobal from './PapanInfoGlobal';
 
 class DataGlobal extends React.Component {
     componentDidMount() {
@@ -13,10 +12,9 @@ class DataGlobal extends React.Component {
             <div>
               <div className="ui segment">
                 <div className="ui header">
-                  <h3>Global Live Data Kasus Coronavirus (Covid 19)</h3>
-                  <h5>Data By <strong>J.H.U</strong></h5>
+                  <h3>Global Live Data Kasus Coronavirus (Covid 19) Data By J.H.U</h3>
                 </div>
-                <table className="ui olive table">
+                <table className="ui celled table">
                   <thead>
                     <tr>
                       <th>Negara</th>
@@ -45,7 +43,6 @@ class DataGlobal extends React.Component {
     render() {
         return (
             <div>
-              <PapanInfoGlobal />
               <div>{this.renderList()}</div>
             </div>
             

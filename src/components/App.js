@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import DataIndonesia from './data/DataIndonesia';
 import DataProvinsi from './data/DataProvinsi';
 import DataPapua from './data/DataPapua';
- //import DataGlobal from './data/DataGlobal';
+import DataRumahSakit from './data/DataRumahSakit';
 
 import Header from './Header';
 import Footer from './Footer';
@@ -23,12 +23,12 @@ class App extends React.Component {
                    <Route path="/frontend-kawal-corona-papua/" exact component={DataIndonesia} />
                    <Route path="/frontend-kawal-corona-papua/provinsi" component={DataProvinsi} />
                    <Route path="/frontend-kawal-corona-papua/papua" component={DataPapua} />
+                   <Route path="/frontend-kawal-corona-papua/rumahsakit" component={DataRumahSakit} />
                 </Switch>
               </BrowserRouter>
-              
             </div>
             <Footer />
-            </div>
+          </div>
             
             
         );

@@ -4,7 +4,8 @@ import {
     FETCH_PROVINSI, 
     FETCH_PAPUA, 
     FETCH_GLOBAL,
-    FETCH_INFOGRAFIK
+    FETCH_INFOGRAFIK,
+    FETCH_RUMAHSAKIT
 } from './types';
 
 export const fetchProvinsi = () => async dispatch => {
@@ -30,4 +31,10 @@ export const fetchGlobal = () => async dispatch => {
     const response = await kawalcorona.get('/api/');
 
     dispatch({ type: FETCH_GLOBAL, payload: response.data });
+}
+
+export const fetchRumahSakit = () => async dispatch => {
+    const response = await kawalcoronapapua.get('/api/rumahsakit/');
+
+    dispatch({ type: FETCH_RUMAHSAKIT, payload: response.data.results });
 }
