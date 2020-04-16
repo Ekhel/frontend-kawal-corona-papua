@@ -207,7 +207,7 @@
     ![Grafik](https://live.staticflickr.com/65535/49781343581_dffa780136_b.jpg)
 
   - Data Positif Papua :
-    ![Positif](https://live.staticflickr.com/65535/49781343581_dffa780136_b.jpg)
+    ![Positif](https://live.staticflickr.com/65535/49781674872_b49f7fd92d_b.jpg)
 
 ---------------------------------------------------------------------------------------------------
 
