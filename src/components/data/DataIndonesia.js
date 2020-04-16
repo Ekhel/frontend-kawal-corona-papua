@@ -2,15 +2,21 @@ import '../style.css';
 import React from 'react';
 
 import kawalcorona from '../../apis/kawalcorona';
+import kawalcoronapapua from '../../apis/kawalcoronapapua';
 import DataGlobal from './DataGlobal';
 
 class DataIndonesia extends React.Component {
-    state = ({ indo: [] })
+    state = ({ indo: [], papua: [] })
 
     componentDidMount() {
         kawalcorona.get('/indonesia/')
         .then(response => {
             this.setState({ indo: response.data });
+        });
+
+        kawalcoronapapua.get('/api/papaninfo/')
+        .then(response => {
+            this.setState({ papua: response.data });
         });
     }
     
@@ -63,9 +69,9 @@ class DataIndonesia extends React.Component {
                 <div className="content">
                   <div className="right-text">
                     <div className="desription"><h5>PAPUA</h5></div>
-                    <div><p>POSITIF : <strong>68</strong></p></div>
-                    <div><p>SEMBUH : <strong>15</strong></p></div>
-                    <div><p>MENINGGAL : <strong>5</strong></p></div>
+                    <div><p>POSITIF : <strong>{this.state.papua.map(papua =>(papua.positif))}</strong></p></div>
+                    <div><p>SEMBUH : <strong>{this.state.papua.map(papua =>(papua.sembuh))}</strong></p></div>
+                    <div><p>MENINGGAL : <strong>{this.state.papua.map(papua =>(papua.meninggal))}</strong></p></div>
                   </div>
                   <div className="left-img"><img width="30%" src="assets/icon/papua1.png" alt="logo" /></div>
                 </div>
