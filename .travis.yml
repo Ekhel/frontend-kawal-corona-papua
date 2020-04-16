@@ -13,5 +13,6 @@ deploy:
   skip_cleanup: true
   github_token: $frontend-kawal-corona
   project: ./build/
+  local_dir: build
   on:
     branch: master
