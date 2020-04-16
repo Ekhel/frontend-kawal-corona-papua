@@ -184,7 +184,7 @@
 
 -------------------------------------------------------------------------
 
-## Libraby Template dan Halaman:
+## UI Style:
 * Semantic UI CDN
   - https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css
 
@@ -195,5 +195,19 @@
   - Fetch Data Indonesia Per Provinsi
   - Fetch Data Personal Pasien Positif Provinsi Papua
   - Fetch Data Rumah Sakit Rujukan Di Provinsi Papua
+
+---------------------------------------------------------------------------
+
+## Kontribusi Data & Project :
+  - Saya Belum Memiliki Sumber Data yang benar" valid.
+  - Sebagian Data Kasus di Provinsi Papua yang ada pada database backend diambil dari 60% Hasil Tracking Media.
+  - Jika teman" ingin Berkontribusi terkait data dengan sangat senang hati saya akan menerima.
+  - email saya terkait Data : **michaekarafir@gmail.com**
+  - Atau bisa chat pada gitter klik pada badge gitter diatas, **chat on gitter**
+  - Project ini Open Source siapa saja boleh untuk Berkontribusi Termasuk Data dan Repository.
+  - Saran dan Masukan Sangat Saya butuhkan.
+
+  Salam Sehat
+  Michael.
 
 
