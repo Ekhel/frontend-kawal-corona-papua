@@ -5,8 +5,10 @@ cache:
   directories:
   - node_modules
 script:
-  - npm test
-  - npm run build
+  - npm run clean-force
+  - npm run remove-modules
+  - npm run install-npm
+  - npm run audit-fix
 
 deploy:
   provider: pages
