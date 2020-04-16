@@ -5,16 +5,12 @@ cache:
   directories:
   - node_modules
 script:
-  - npm run clean-force
-  - npm run remove-modules
-  - npm run install-npm
-  - npm run audit-fix
+  - npm run build
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $frontend-kawal-corona
-  project: ./build/
   local_dir: build
   on:
     branch: master
