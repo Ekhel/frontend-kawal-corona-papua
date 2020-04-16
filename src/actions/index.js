@@ -18,13 +18,13 @@ export const fetchProvinsi = () => async dispatch => {
 export const fetchPapua = () => async dispatch => {
     const response = await kawalcoronapapua.get('/api/penderita/');
 
-    dispatch({ type: FETCH_PAPUA, payload: response.data.results });
+    dispatch({ type: FETCH_PAPUA, payload: response.data });
 }
 
 export const fetchInfoGrafikPapua = () => async dispatch => {
     const response = await kawalcoronapapua.get('/api/informasi/');
 
-    dispatch({ type: FETCH_INFOGRAFIK, payload: response.data.results });
+    dispatch({ type: FETCH_INFOGRAFIK, payload: response.data });
 }
 
 export const fetchGlobal = () => async dispatch => {
@@ -36,5 +36,5 @@ export const fetchGlobal = () => async dispatch => {
 export const fetchRumahSakit = () => async dispatch => {
     const response = await kawalcoronapapua.get('/api/rumahsakit/');
 
-    dispatch({ type: FETCH_RUMAHSAKIT, payload: response.data.results });
+    dispatch({ type: FETCH_RUMAHSAKIT, payload: response.data });
 }
