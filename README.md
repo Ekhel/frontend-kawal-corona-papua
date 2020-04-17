@@ -1,4 +1,4 @@
-<p align="center"><img src="https://live.staticflickr.com/65535/49784089877_0d7c611050_c.jpg" width="400px></p>
+<p align="center"><img src="https://live.staticflickr.com/65535/49784089877_0d7c611050_c.jpg" width="500px"></p>
 
 <p align="center">
   <a href="https://travis-ci.com/Ekhel/frontend-kawal-corona-papua"><img src="https://travis-ci.com/Ekhel/frontend-kawal-corona-papua.svg?branch=master" alt="Build Status"></a>
