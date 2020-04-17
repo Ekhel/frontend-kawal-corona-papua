@@ -6,6 +6,10 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
 </p>
 
+## Tentang Kawal-Corona Papua :
+  - Kawal Corona Papua adalah Web Applikasi sekaligus dapat Menjadi Portal Informasi Live Data Kasus Covid 19 di Papua, Sedikit Sumbangsih dari Kami untuk Papua, Project ini Open Source, Siapa Saja Boleh untuk Berkontribusi.
+------------------------------------------------------------------------------------------------------------------------
+
 ## System Requirements :
 * Bahasa Utama :
   - JavaScript
