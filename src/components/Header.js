@@ -11,9 +11,9 @@ const Header = () => {
                   <img className="logo" src="assets/icon/coronaicon1.png" alt="logo" />
                   JAYAPURA DEV
                 </a>
-                <div class="ui simple dropdown item">
-                  Data <i class="dropdown icon"></i>
-                  <div class="menu">
+                <div className="ui simple dropdown item">
+                  Data <i className="dropdown icon"></i>
+                  <div className="menu">
                     <li className="item">
                       <Link style={{ textDecoration: 'none', color: 'black' }} to="/frontend-kawal-corona-papua/provinsi" >PROVINSI</Link>
                     </li>

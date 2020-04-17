@@ -1,12 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchPapua } from '../../actions';
-import PapanInfoPapua from './PapanInfoPapua';
-import GrafikInfoPapua from './GrafikInfoPapua';
+import { fetchPapuaSembuh } from '../../actions';
 
-class DataPapua extends React.Component {
+class PapuaSembuh extends React.Component {
     componentDidMount() {
-        this.props.fetchPapua();
+        this.props.fetchPapuaSembuh();
     }
 
     iconGender(papua) {
@@ -22,12 +20,12 @@ class DataPapua extends React.Component {
     LabelStatus(papua) {
       if (papua.status === 'Sembuh') {
         return (
-          <p className="ui teal label">SEMBUH</p>
+          <p class="ui teal label">SEMBUH</p>
         )
       } else if (papua.status === 'Positif') {
-        return <p className="ui pink label">POSITIF</p>
+        return <p class="ui pink label">POSITIF</p>
       } else {
-        return <p className="ui violet label">MENINGGAL</p>
+        return <p class="ui violet label">MENINGGAL</p>
       }
       
     }
@@ -69,9 +67,6 @@ class DataPapua extends React.Component {
     render() {
         return (
             <div>
-              <PapanInfoPapua />
-              <div className="ui divider"></div>
-              <GrafikInfoPapua />
               <div className="ui divider"></div>
               {this.renderList()}
             </div>
@@ -80,7 +75,7 @@ class DataPapua extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    return { papua:  Object.values(state.papua) };
+    return { papua:  Object.values(state.querysembuh) };
 }
 
-export default connect(mapStateToProps, { fetchPapua })(DataPapua);
+export default connect(mapStateToProps, { fetchPapuaSembuh })(PapuaSembuh);
