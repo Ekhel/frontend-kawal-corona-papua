@@ -20,7 +20,7 @@ class GrafikInfoPapua extends React.Component {
         chart: {
           id: "basic-bar"
         },
-        colors: ['#77B6EA', '#545454'],
+        colors: ['#DC143C', '#F0E68C', '#00FA9A'],
         dataLabels: {
           enabled: true,
         },
@@ -32,17 +32,21 @@ class GrafikInfoPapua extends React.Component {
           align: 'left'
         },
         xaxis: {
-          categories: ['4 April', '5 April', '6 April', '7 April', '8 April', '9 April', '10 April', '11 April' ,'12 April', '13 April', '14 April', '15 April', '16 April']
+          categories: ['4 April', '5 April', '6 April', '7 April', '8 April', '9 April', '10 April', '11 April' ,'12 April', '13 April', '14 April', '15 April', '16 April', '17 April']
         }
       },
       series: [
         {
           name: "POSITIF",
-          data: ['18', '26', '26', '31', '45', '48', '51', '61', '65', '67', '68', '75', '80']
+          data: ['18', '26', '26', '31', '45', '48', '51', '61', '65', '67', '68', '75', '80', '89']
         },
         {
           name: "PDP",
-          data: ['44', '45', '45', '44', '54', '60', '60', '59', '59', '83', '83', '98', '100']
+          data: ['44', '45', '45', '44', '54', '60', '60', '59', '59', '83', '83', '98', '100' , '101']
+        },
+        {
+          name: "SEMBUH",
+          data: ['3', '5', '5', '5', '5', '5', '5', '9', '9', '15', '15', '15', '17' , '19']
         }
       ]
     };
