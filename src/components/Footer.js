@@ -29,8 +29,8 @@ const Footer = () => {
                 </div>
               </div>
               <div className="seven wide column">
-                <h4 className="ui inverted header"> Dev By</h4>
-                <p>Michael.</p>
+                <h4 className="ui inverted header"> Made By</h4>
+                <p>Jayapura Dev</p>
                 <div className="ui horizontal inverted small divided link list">
                   <a className="item" href="http://github.com/Ekhel/">Github</a>
                 </div>
@@ -42,7 +42,7 @@ const Footer = () => {
             <img src="assets/icon/coronaicon1.png" className="ui centered mini image" alt="logo" />
             <div className="ui horizontal inverted small divided link list">
               <a className="item" href="http://github.com/Ekhel/frontend-kawal-corona-papua">Repository</a>
-              <a className="item" href="https://badges.gitter.im/jayapura_dev/react.svg">Gitter</a>
+              <a className="item" href="https://gitter.im/jayapura_dev/react?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">Gitter</a>
             </div>
           </div>
         </div>
