@@ -25,7 +25,7 @@
   - Github Pages
 
 ------------------------------------------------------------------------------------------------------------
-## Library :
+## Library Yang digunakan :
 
 | Library           | Package Instalation                                                               |
 | ---------------   | --------------------------------------------------------------------------------- |
@@ -35,6 +35,23 @@
 | lodash            | *npm install --save lodash*                                                       |
 | Redux-Thunk       | *npm install --save redux-thunk*                                                  |
 | github Pages      | *npm install gh-pages --save-dev*                                                 |
+| REDUX DEV TOOLS   | *extension browser untuk Redux Action Creator (Disesuikan dengan Browser)*        |
+
+
+* Config REDUX DEV TOOLS (index.js From ROOT */src/*) :
+  - ![Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/)
+  - ![Chrome Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
+    
+    ```JSX
+       // Line of Code...
+       // Setup untuk Koneksi ke Redux Action Creator
+       import { createStore, applyMiddleware, compose } from 'redux';
+       import reduxThunk from 'redux-thunk';
+
+       const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+       const store = createStore(reducers, composeEnhancers(applyMiddleware(reduxThunk)));
+       // line of Code...
+    ```
 
 --------------------------------------------------------------------------------------------------------------
 
