@@ -70,8 +70,6 @@ class DataPapua extends React.Component {
             <div>
               <PapanInfoPapua />
               <div className="ui divider"></div>
-              <GrafikInfoPapua />
-              <div className="ui divider"></div>
               {this.renderList()}
             </div>
         )
