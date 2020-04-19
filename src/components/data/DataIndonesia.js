@@ -3,7 +3,8 @@ import React from 'react';
 
 import kawalcorona from '../../apis/kawalcorona';
 import kawalcoronapapua from '../../apis/kawalcoronapapua';
-import DataGlobal from './DataGlobal';
+ //import DataGlobal from './DataGlobal';
+import PapanInfoPapua from './PapanInfoPapua';
 
 class DataIndonesia extends React.Component {
     state = ({ indo: [], papua: [] })
@@ -24,7 +25,7 @@ class DataIndonesia extends React.Component {
         return (
         <div>
           <div className="ui text container2">
-            <h3 className="container">Live Data Kasus Covid 19 Indonesia & Papua.</h3> 
+            <h3 className="container"><i class="flag id"></i>Live Data Kasus Covid 19 Indonesia.</h3> 
           </div>
           <div className="ui divider"></div>
           <div className="ui four column stackable grid">
@@ -81,7 +82,11 @@ class DataIndonesia extends React.Component {
           </div>
           <div className="ui divider"></div>
             <div className="ui segment">
-              <DataGlobal />
+              <div className="ui text container2">
+                <h3 className="container">Live Data Kasus Covid 19 Papua.</h3> 
+            </div>
+              <br/>
+              <PapanInfoPapua />
             </div>
         </div>
       );

@@ -30,9 +30,8 @@ const Footer = () => {
               </div>
               <div className="seven wide column">
                 <h4 className="ui inverted header"> Made By</h4>
-                <p>Jayapura Dev</p>
                 <div className="ui horizontal inverted small divided link list">
-                  <a className="item" href="http://github.com/Ekhel/">Github</a>
+                  <a  href="http://gihub.com/Ekhel/"><img src="assets/icon/jayapura_dev.png" className="ui center aligned" width="150px" alt="logo" /></a>
                 </div>
                 
               </div>
