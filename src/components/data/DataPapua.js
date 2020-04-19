@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { fetchPapua } from '../../actions';
 import PapanInfoPapua from './PapanInfoPapua';
-import GrafikInfoPapua from './GrafikInfoPapua';
+//import GrafikInfoPapua from './GrafikInfoPapua';
 
 class DataPapua extends React.Component {
     componentDidMount() {

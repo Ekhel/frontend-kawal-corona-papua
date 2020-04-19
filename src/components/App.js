@@ -5,7 +5,7 @@ import DataIndonesia from './data/DataIndonesia';
 import DataProvinsi from './data/DataProvinsi';
 import DataPapua from './data/DataPapua';
 import DataRumahSakit from './data/DataRumahSakit';
-import GrafikInfoPapua from '/data/GrafikInfoPapua';
+import GrafikInfoPapua from './data/GrafikInfoPapua';
 
 import Header from './Header';
 import Footer from './Footer';
