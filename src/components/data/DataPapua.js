@@ -51,11 +51,11 @@ class DataPapua extends React.Component {
                   <tbody>
                     {this.props.papua.map(papua => (
                      <tr key={papua.id_penderita}>
-                       <td className="ui center aligned">{papua.nomor}</td>
-                       <td className="col-3 uppercase">{papua.lokasi}</td>
-                       <td className="ui center aligned">{this.iconGender(papua)}</td>
-                       <td className="ui center aligned">{papua.umur}</td>
-                       <td className="ui center aligned">{this.LabelStatus(papua)}</td>
+                       <td>{papua.nomor}</td>
+                       <td className="uppercase">{papua.lokasi}</td>
+                       <td>{this.iconGender(papua)}</td>
+                       <td>{papua.umur}</td>
+                       <td>{this.LabelStatus(papua)}</td>
                      </tr>
                     ))}
                   </tbody>

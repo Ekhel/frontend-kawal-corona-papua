@@ -27,8 +27,8 @@ class DataIndonesia extends React.Component {
             <h3 className="container">Live Data Kasus Covid 19 Indonesia & Papua.</h3> 
           </div>
           <div className="ui divider"></div>
-          <div className="ui grid">
-            <div className="four wide column">
+          <div className="ui four column stackable grid">
+            <div className="column">
               <div className="ui fluid card yellow">
                 <div className="content">
                   <div className="right-text">
@@ -40,7 +40,7 @@ class DataIndonesia extends React.Component {
                 </div>
              </div>
             </div>
-            <div className="four wide column">
+            <div className="column">
               <div className="ui green fluid card green">
                 <div className="content">
                   <div className="right-text">
@@ -52,7 +52,7 @@ class DataIndonesia extends React.Component {
                 </div>
              </div>
             </div>
-            <div className="four wide column">
+            <div className="column">
               <div className="ui violet fluid card pink">
                 <div className="content">
                   <div className="right-text">
@@ -64,7 +64,7 @@ class DataIndonesia extends React.Component {
                 </div>
              </div>
             </div>
-            <div className="four wide column">
+            <div className="column">
               <div className="ui violet fluid card grey">
                 <div className="content">
                   <div className="right-text">
