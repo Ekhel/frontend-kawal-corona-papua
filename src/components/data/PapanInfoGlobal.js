@@ -5,18 +5,18 @@ import kawalcorona from '../../apis/kawalcorona';
 class PapanInfoGlobal extends React.Component {
     state = ({ positif: [], sembuh: [], meninggal: [] });
 
-    componentDidMount() {
-        kawalcorona.get('/positif/')
+    async componentDidMount() {
+        await kawalcorona.get('/positif/')
         .then(response => {
             this.setState({ positif: response.data });
         });
 
-        kawalcorona.get('/sembuh/')
+        await kawalcorona.get('/sembuh/')
         .then(response => {
             this.setState({ sembuh: response.data });
         });
 
-        kawalcorona.get('/meninggal/')
+        await kawalcorona.get('/meninggal/')
         .then(response => {
             this.setState({ meninggal: response.data });
         });

@@ -9,7 +9,7 @@ import PapanInfoPapua from './PapanInfoPapua';
 class DataIndonesia extends React.Component {
     state = ({ indo: [], papua: [] })
 
-    componentDidMount() {
+    async componentDidMount() {
         kawalcorona.get('/indonesia/')
         .then(response => {
             this.setState({ indo: response.data });
@@ -34,8 +34,8 @@ class DataIndonesia extends React.Component {
                 <div className="content">
                   <div className="right-text">
                     <h5>TOTAL POSITIF</h5>
-                    <div className="desription"><h3>{this.state.indo.map(indo =>(indo.positif))}</h3></div>
-                    <div className="desription">ORANG</div>
+                    <div className="description"><h3>{this.state.indo.map(indo =>(indo.positif))}</h3></div>
+                    <div className="description">ORANG</div>
                   </div>
                   <div className="left-img"><img width="30%" src="assets/icon/terluka.png" alt="logo" /></div>
                 </div>
@@ -46,8 +46,8 @@ class DataIndonesia extends React.Component {
                 <div className="content">
                   <div className="right-text">
                     <h5>TOTAL SEMBUH</h5>
-                    <div className="desription"><h3>{this.state.indo.map(indo =>(indo.sembuh))}</h3></div>
-                    <div className="desription">ORANG</div>
+                    <div className="description"><h3>{this.state.indo.map(indo =>(indo.sembuh))}</h3></div>
+                    <div className="description">ORANG</div>
                   </div>
                   <div className="left-img"><img width="30%" src="assets/icon/senang.png" alt="logo" /></div>
                 </div>
@@ -58,8 +58,8 @@ class DataIndonesia extends React.Component {
                 <div className="content">
                   <div className="right-text">
                     <h5>TOTAL MENINGGAL</h5>
-                    <div className="desription"><h3>{this.state.indo.map(indo =>(indo.meninggal))}</h3></div>
-                    <div className="desription">ORANG</div>
+                    <div className="description"><h3>{this.state.indo.map(indo =>(indo.meninggal))}</h3></div>
+                    <div className="description">ORANG</div>
                   </div>
                   <div className="left-img"><img width="30%" src="assets/icon/menangis.png" alt="logo" /></div>
                 </div>
@@ -69,7 +69,7 @@ class DataIndonesia extends React.Component {
               <div className="ui violet fluid card grey">
                 <div className="content">
                   <div className="right-text">
-                    <div className="desription"><h5>PAPUA</h5></div>
+                    <div className="description"><p>PAPUA</p></div>
                     <div><p>POSITIF : <strong>{this.state.papua.map(papua =>(papua.positif))}</strong></p></div>
                     <div><p>SEMBUH : <strong>{this.state.papua.map(papua =>(papua.sembuh))}</strong></p></div>
                     <div><p>MENINGGAL : <strong>{this.state.papua.map(papua =>(papua.meninggal))}</strong></p></div>

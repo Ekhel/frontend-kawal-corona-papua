@@ -12,9 +12,9 @@ class DataProvinsi extends React.Component {
             <div>
               <div className="ui segment">
                 <h3 className="ui header">
-                  <i className="id flag"></i> Data Kasus Covid 19 Provinsi
+                  <i className="id flag"></i> Data Kasus Covid 19 (Provinsi)
                 </h3>
-                <table className="ui pink table">
+                <table className="ui celled table striped small">
                   <thead>
                     <tr>
                       <th>KODE</th>
@@ -28,7 +28,7 @@ class DataProvinsi extends React.Component {
                     {this.props.provinsi.map(provinsi => (
                       <tr key={provinsi.attributes.FID}>
                         <td>{provinsi.attributes.Kode_Provi}</td>
-                        <td>{provinsi.attributes.Provinsi}</td>
+                        <td className="uppercase">{provinsi.attributes.Provinsi}</td>
                         <td>{provinsi.attributes.Kasus_Posi}</td>
                         <td>{provinsi.attributes.Kasus_Semb}</td>
                         <td>{provinsi.attributes.Kasus_Meni}</td>

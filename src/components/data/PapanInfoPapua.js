@@ -5,11 +5,10 @@ import kawalcoronapapua from '../../apis/kawalcoronapapua';
 class PapanInfoPapua extends React.Component {
     state = ({ papaninfo: [] })
 
-    componentDidMount() {
-        kawalcoronapapua.get('/api/papaninfo/')
-        .then(response => {
-            this.setState({ papaninfo: response.data });
-        });
+    async componentDidMount() {
+        const response = await kawalcoronapapua.get('/api/papaninfo/');
+
+        this.setState({ papaninfo: response.data })
     }
 
     renderInfo() {
