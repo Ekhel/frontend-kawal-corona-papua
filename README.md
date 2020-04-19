@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://travis-ci.com/Ekhel/frontend-kawal-corona-papua"><img src="https://travis-ci.com/Ekhel/frontend-kawal-corona-papua.svg?branch=master" alt="Build Status"></a>
   <a href="https://gitter.im/jayapura_dev/react?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/jayapura_dev/react.svg" alt="Gitter"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
+  <a href="https://github.com/Ekhel/frontend-kawal-corona-papua/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
 </p>
 
 ## Tentang Kawal-Corona Papua :
