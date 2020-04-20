@@ -11,7 +11,7 @@ class DataIndonesia extends React.Component {
 
     async componentDidMount() {
         const indo = await kawalcorona.get('/indonesia/');
-        this.setState({ papaninfo: indo.data });
+        this.setState({ indo: indo.data });
 
         const papua = await kawalcoronapapua.get('/api/papaninfo/');
         this.setState({ papua: papua.data });
