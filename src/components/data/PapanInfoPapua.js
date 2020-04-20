@@ -7,8 +7,7 @@ class PapanInfoPapua extends React.Component {
 
     async componentDidMount() {
         const response = await kawalcoronapapua.get('/api/papaninfo/');
-
-        this.setState({ papaninfo: response.data })
+        this.setState({ papaninfo: response.data });
     }
 
     renderInfo() {

@@ -6,6 +6,7 @@ import DataProvinsi from './data/DataProvinsi';
 import DataPapua from './data/DataPapua';
 import DataRumahSakit from './data/DataRumahSakit';
 import GrafikInfoPapua from './data/GrafikInfoPapua';
+import Kabupaten from './data/Kabupaten';
 
 import Header from './Header';
 import Footer from './Footer';
@@ -26,6 +27,7 @@ class App extends React.Component {
                    <Route path="/frontend-kawal-corona-papua/papua" component={DataPapua} />
                    <Route path="/frontend-kawal-corona-papua/rumahsakit" component={DataRumahSakit} />
                    <Route path="/frontend-kawal-corona-papua/grafikinfo" component={GrafikInfoPapua} />
+                   <Route path="/frontend-kawal-corona-papua/kabupaten" component={Kabupaten} />
                 </Switch>
               </BrowserRouter>
             </div>

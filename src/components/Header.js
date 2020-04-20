@@ -24,8 +24,9 @@ const Header = () => {
                       <Link style={{ textDecoration: 'none', color: 'black' }} to="/frontend-kawal-corona-papua/rumahsakit">RS RUJUKAN</Link>
                     </li>
                     <li className="item">
-                      <Link style={{ textDecoration: 'none', color: 'black' }} to="/frontend-kawal-corona-papua/grafikinfo">Grafik Info</Link>
+                      <Link style={{ textDecoration: 'none', color: 'black' }} to="/frontend-kawal-corona-papua/grafikinfo">GRAFIK</Link>
                     </li>
+                    
                   </div>
                 </div>
               </div>

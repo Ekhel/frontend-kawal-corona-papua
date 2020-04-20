@@ -10,22 +10,18 @@ class DataIndonesia extends React.Component {
     state = ({ indo: [], papua: [] })
 
     async componentDidMount() {
-        kawalcorona.get('/indonesia/')
-        .then(response => {
-            this.setState({ indo: response.data });
-        });
+        const indo = await kawalcorona.get('/indonesia/');
+        this.setState({ papaninfo: indo.data });
 
-        kawalcoronapapua.get('/api/papaninfo/')
-        .then(response => {
-            this.setState({ papua: response.data });
-        });
+        const papua = await kawalcoronapapua.get('/api/papaninfo/');
+        this.setState({ papua: papua.data });
     }
     
     render() {
         return (
         <div>
           <div className="ui text container2">
-            <h3 className="container"><i class="flag id"></i>Live Data Kasus Covid 19 Indonesia.</h3> 
+            <h3 className="container"><i className="flag id"></i>Live Data Kasus Covid 19 Indonesia.</h3> 
           </div>
           <div className="ui divider"></div>
           <div className="ui four column stackable grid">
