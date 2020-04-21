@@ -1,40 +1,15 @@
 import React from 'react';
 
+import InfoCorona from './InfoCorona';
+
 class Beranda extends React.Component {
     render() {
         return (
             <div className="ui container">
-              <div className="ui segment">
-                <div className="ui center aligned">
-                  <h3>Apa Itu Covid 19 ?</h3>
-                </div>
-                <h5>
-                    Coronavirus Disease 2019 atau COVID-19 adalah penyakit baru yang 
-                    dapat menyebabkan gangguan pernapasan dan radang paru. 
-                    Penyakit ini disebabkan oleh infeksi Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2). 
-                    Gejala klinis yang muncul beragam, mulai dari seperti gejala flu biasa 
-                    (batuk, pilek, nyeri tenggorok, nyeri otot, nyeri kepala) sampai yang berkomplikasi berat 
-                    (pneumonia atau sepsis). 
-                </h5>
-                <hr />
-                <br/>
-                <div className="ui center aligned">
-                  <h3>Bagaimana COVID-19 Menular?</h3>
-                </div>
-                <h5>
-                    COVID-19 adalah penyakit baru dan para peneliti masih mempelajari bagaimana cara penularannya. 
-                    Dari berbagai penelitian, 
-                    metode penyebaran utama penyakit ini diduga adalah melalui droplet saluran pernapasan dan kontak 
-                    dekat dengan penderita. 
-                    Droplet merupakan partikel kecil dari mulut penderita yang dapat mengandung virus penyakit, 
-                    yang dihasilkan pada saat batuk, bersin, atau berbicara. Droplet dapat melewati sampai jarak tertentu 
-                    (biasanya 1 meter). 
-                    Droplet bisa menempel di pakaian atau benda di sekitar penderita pada saat batuk atau bersin. 
-                    Namun, partikel droplet cukup besar sehingga tidak akan bertahan atau mengendap di udara dalam waktu yang lama. 
-                    Oleh karena itu, orang yang sedang sakit, diwajibkan untuk menggunakan masker untuk mencegah penyebaran droplet. 
-                    Untuk penularan melalui makanan, sampai saat ini belum ada bukti ilmiahnya.  
-                </h5>
-              </div>
+              <div><InfoCorona /></div>
+              <br/>
+              <br/>
+              <br/>
               <div className="ui segment">
                 <div className="ui center aligned header">
                   <h3>Kamus COVID-19</h3>
@@ -58,11 +33,7 @@ class Beranda extends React.Component {
                            </p>
                          </div>
                         </div>
-                        <div className="extra content">
-                          <div className="right floated author">
-                            Admin <img className="ui avatar image" src="assets/matt.jpg" alt="mat" />
-                          </div>
-                        </div>
+                        
                       </div>
                     </div>
                     <div className="column">
@@ -82,11 +53,7 @@ class Beranda extends React.Component {
                            </p>
                          </div>
                         </div>
-                        <div className="extra content">
-                          <div className="right floated author">
-                            Admin <img className="ui avatar image" src="assets/matt.jpg" alt="mat" />
-                          </div>
-                        </div>
+                        
                       </div>
                     </div>
                     <div className="column">
@@ -104,11 +71,7 @@ class Beranda extends React.Component {
                            </p>
                          </div>
                         </div>
-                        <div className="extra content">
-                          <div className="right floated author">
-                            Admin <img className="ui avatar image" src="assets/matt.jpg" alt="mat" />
-                          </div>
-                        </div>
+                        
                       </div>
                     </div>
                   </div>

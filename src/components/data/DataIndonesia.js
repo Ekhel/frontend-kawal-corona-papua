@@ -77,9 +77,11 @@ class DataIndonesia extends React.Component {
             </div>
             
           </div>
+          <br/>
           <div className="ui divider"></div>
-            
-            <Beranda />
+          <br/>     
+          <br/>
+          <div><Beranda /></div>
         </div>
       );
     }
