@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/frontend-kawal-corona-papua/static/css/main.524d8ad3.chunk.css",
+    "main.js": "/frontend-kawal-corona-papua/static/js/main.4a5d7d9e.chunk.js",
+    "main.js.map": "/frontend-kawal-corona-papua/static/js/main.4a5d7d9e.chunk.js.map",
+    "runtime-main.js": "/frontend-kawal-corona-papua/static/js/runtime-main.9643e75d.js",
+    "runtime-main.js.map": "/frontend-kawal-corona-papua/static/js/runtime-main.9643e75d.js.map",
+    "static/js/2.68519595.chunk.js": "/frontend-kawal-corona-papua/static/js/2.68519595.chunk.js",
+    "static/js/2.68519595.chunk.js.map": "/frontend-kawal-corona-papua/static/js/2.68519595.chunk.js.map",
+    "index.html": "/frontend-kawal-corona-papua/index.html",
+    "precache-manifest.656292ee8c1a52327d3fa44cd764f982.js": "/frontend-kawal-corona-papua/precache-manifest.656292ee8c1a52327d3fa44cd764f982.js",
+    "service-worker.js": "/frontend-kawal-corona-papua/service-worker.js",
+    "static/css/main.524d8ad3.chunk.css.map": "/frontend-kawal-corona-papua/static/css/main.524d8ad3.chunk.css.map",
+    "static/js/2.68519595.chunk.js.LICENSE.txt": "/frontend-kawal-corona-papua/static/js/2.68519595.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9643e75d.js",
+    "static/js/2.68519595.chunk.js",
+    "static/css/main.524d8ad3.chunk.css",
+    "static/js/main.4a5d7d9e.chunk.js"
+  ]
+}
